@@ -53,7 +53,7 @@ namespace Supermarket_Management_System.Layout
                 }
 
                 // Redirect on success
-                Response.Redirect("Index.aspx");
+                Response.Redirect("Dashboard.aspx");
             }
             else
             {
