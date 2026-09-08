@@ -1,0 +1,46 @@
+﻿body {
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+}
+
+.phone-label, .password-label {
+    width: 30px;
+}
+
+#userPhoneicon, #UserPasswordIcon {
+    width: 20px;
+}
+
+input {
+    height: 25px;
+    border: 1px solid #ffd800;
+    outline: none;
+    caret-color: #ffd800;
+    color: #ffd800;
+}
+
+.user-phone {
+    margin-bottom: 10px;
+}
+
+input#LoginButon {
+    border-radius: 8px;
+    height: 30px;
+    width: 50%;
+}
+
+.check-remember {
+    display: flex;
+    justify-content: center;
+    color: #ffd855;
+}
+
+input#RememberRadioButton {
+    margin-right: 10px;
+}
+.h-100vh {
+    height:100vh;
+}
