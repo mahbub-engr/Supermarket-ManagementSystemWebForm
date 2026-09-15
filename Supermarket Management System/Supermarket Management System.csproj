@@ -70,8 +70,11 @@
     <Content Include="Layout\Dashboard.aspx" />
     <Content Include="Layout\LoginForm.aspx" />
     <Content Include="lib\css\bootstrap.css" />
+    <Content Include="lib\css\Dashboard.css" />
+    <Content Include="lib\css\fontawesome-all.min.css" />
     <Content Include="lib\css\Main.css" />
     <Content Include="lib\js\bootstrap.js" />
+    <Content Include="lib\js\fontawesome.min.js" />
     <Content Include="lib\js\Main.js" />
     <Content Include="lib\logo\call.png" />
     <Content Include="lib\logo\password.png" />
