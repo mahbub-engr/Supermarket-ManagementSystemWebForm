@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-10 content">
+                    <div class="content col-10 ">
                         <div class="header-area container d-flex justify-content-between">
                             <div class="title-area">
                                 <h3>Dashboard</h3>
@@ -84,6 +84,126 @@
                                         <asp:Label ID="Label15" runat="server" Text="145"></asp:Label>
                                         <asp:Label ID="Label16" runat="server" Text="12.5%"></asp:Label>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sale-ov-low-stock container-fluid mt-4">
+                            <div class="row">
+                                <div class="col-8 sale-ov">
+
+                                    <div class="sales-card p-4">
+
+                                        <!-- Header -->
+
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <h2 class="sales-title mb-0">Sales Overview</h2>
+                                            <span class="sales-period">Last 7 days</span>
+                                        </div>
+                                        <!-- Chart -->
+                                        <div class="chart mt-2">
+                                            <!-- Monday -->
+                                            <div class="bar-item">
+                                                <div class="bar mon"></div>
+                                                <span class="day">Mon</span>
+                                            </div>
+                                            <!-- Tuesday -->
+                                            <div class="bar-item">
+                                                <div class="bar tue"></div>
+                                                <span class="day">Tue</span>
+                                            </div>
+
+                                            <!-- Wednesday -->
+                                            <div class="bar-item">
+                                            <div class="bar wed"></div>
+                                                <span class="day">Wed</span>
+                                            </div>
+
+                                            <!-- Thursday -->
+                                           <div class="bar-item">
+
+                                                <div class="bar thu"></div>
+
+                                                <span class="day">Thu</span>
+                                            </div>
+
+                                            <!-- Friday -->
+                                            <div class="bar-item">
+                                                <div class="bar fri"></div>
+
+                                                <span class="day">Fri</span>
+                                            </div>
+                                            <!-- Saturday -->
+                                            <div class="bar-item">
+
+                                                <div class="bar sat"></div>
+
+                                                <span class="day">Sat</span>
+                                            </div>
+                                            <!-- Sunday -->
+
+                                            <div class="bar-item">
+                                                <div class="bar sunday sun"></div>
+
+                                                <span class="day">Sun</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-4 low-stock">    
+                                    <div class="stock-card p-4">
+
+                                        <!-- Title -->
+
+                                        <h5 class="stock-title">Low Stock Alerts</h5>
+
+
+                                        <!-- Milk -->
+
+                                        <div class="stock-item">
+
+                                            <span class="product-name">Milk 1L</span>
+
+                                            <span class="stock-count">8 left</span>
+
+                                        </div>
+
+
+                                        <!-- Rice -->
+
+                                        <div class="stock-item">
+                                            <span class="product-name">Rice 5kg </span>
+
+                                            <span class="stock-count">5 left</span>
+
+                                        </div>
+
+
+                                        <!-- Cooking Oil -->
+
+                                        <div class="stock-item">
+
+                                            <span class="product-name">Cooking Oil</span>
+
+                                            <span class="stock-count">3 left </span>
+
+                                        </div>
+
+
+                                        <!-- Sugar -->
+
+                                        <div class="stock-item">
+
+                                            <span class="product-name">Sugar 1kg</span>
+
+                                            <span class="stock-count">9 left<span>
+
+                                        </div>
+
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
