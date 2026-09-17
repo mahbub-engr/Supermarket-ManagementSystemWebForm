@@ -12,13 +12,13 @@
 
 .sales-card,.stock-card {
     background: #fff;
-    border-radius: 18px;
-    min-height: 390px;
+    border-radius: 14px;
+    min-height: 300px;
 }
 
 .sales-title,.stock-title {
     color: #1e293b;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .chart {
-    height: 285px;
+/*    height: 285px;*/
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -43,7 +43,7 @@
 }
 
 .bar {
-    width: 60px;
+    width: 46px;
     background: #2864e8;
     border-radius: 8px 8px 6px 6px;
 }
@@ -53,7 +53,7 @@
     }
 
 .day {
-    margin-top: 20px;
+    margin-top: 15px;
     color: #64748b;
     font-size: 14px;
 }
@@ -61,31 +61,31 @@
 
 
 .mon {
-    height: 125px;
+    height: 96px;
 }
 
 .tue {
-    height: 173px;
+    height: 133px;
 }
 
 .wed {
-    height: 140px;
+    height: 108px;
 }
 
 .thu {
-    height: 227px;
+    height: 174px;
 }
 
 .fri {
-    height: 191px;
+    height: 147px;
 }
 
 .sat {
-    height: 263px;
+    height: 202px;
 }
 
 .sun {
-    height: 215px;
+    height: 165px;
 }
 
 .stock-item {
@@ -110,21 +110,81 @@
     border-bottom: none;
 }
 
-/* Mobile */
 
-/*@media (max-width: 576px) {
+.recent-card, .top-sale-card {
+    background:#fff;
+    border-radius:14px;
+    min-height:300px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
 
-    .sales-card {
-        min-height: 350px;
+/* Recent Orders */
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .orders-table th {
+        font-size: 11px;
+        color: #64748b;
+        font-weight: 600;
+        text-align: left;
+        padding: 0 0 10px 0;
     }
 
-    .chart {
-        overflow-x: auto;
-        justify-content: flex-start;
-        gap: 25px;
+    .orders-table td {
+        font-size: 11px;
+        color: #1e293b;
+        padding: 12px 0;
+        border-bottom: 1px solid #e5e7eb;
     }
 
-    .bar {
-        width: 45px;
+    .orders-table tr:last-child td {
+        border-bottom: none;
     }
-}*/
+
+/* Status */
+
+.status-paid {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.status-processing,
+.status-shipped {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+
+/* Top Selling Products */
+
+.product-item {
+    display: flex;
+    align-items: center;
+    min-height: 41px;
+}
+
+.product-number {
+    width: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.product-name {
+    flex: 1;
+    font-size: 11px;
+    color: #1e293b;
+}
+
+.product-sold {
+    font-size: 11px;
+    color: #64748b;
+}

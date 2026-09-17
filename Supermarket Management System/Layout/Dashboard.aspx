@@ -91,7 +91,7 @@
                             <div class="row">
                                 <div class="col-8 sale-ov">
 
-                                    <div class="sales-card p-4">
+                                    <div class="sales-card p-3">
 
                                         <!-- Header -->
 
@@ -115,12 +115,12 @@
 
                                             <!-- Wednesday -->
                                             <div class="bar-item">
-                                            <div class="bar wed"></div>
+                                                <div class="bar wed"></div>
                                                 <span class="day">Wed</span>
                                             </div>
 
                                             <!-- Thursday -->
-                                           <div class="bar-item">
+                                            <div class="bar-item">
 
                                                 <div class="bar thu"></div>
 
@@ -152,8 +152,8 @@
                                     </div>
 
                                 </div>
-                                <div class="col-4 low-stock">    
-                                    <div class="stock-card p-4">
+                                <div class="col-4 low-stock">
+                                    <div class="stock-card p-3">
 
                                         <!-- Title -->
 
@@ -199,12 +199,210 @@
                                             <span class="product-name">Sugar 1kg</span>
 
                                             <span class="stock-count">9 left<span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-order-top-sale container-fluid mt-4">
+                            <div class="row">
+
+                                <!-- ========================= -->
+                                <!-- Recent Orders -->
+                                <!-- ========================= -->
+
+                                <div class="col-8 recent-order">
+
+                                    <div class="recent-card p-3">
+
+                                        <h5 class="card-title">Recent Orders</h5>
+
+
+                                        <div class="table-responsive">
+
+                                            <table class="orders-table">
+
+                                                <thead>
+
+                                                    <tr>
+                                                        <th>Order ID</th>
+                                                        <th>Customer</th>
+                                                        <th>Amount</th>
+                                                        <th>Status</th>
+                                                    </tr>
+
+                                                </thead>
+
+
+                                                <tbody>
+
+                                                    <!-- Order 1 -->
+
+                                                    <tr>
+
+                                                        <td>#ORD-1048
+                                                        </td>
+
+                                                        <td>Rahim Ahmed
+                                                        </td>
+
+                                                        <td>$248.00
+                                                        </td>
+
+                                                        <td class="status-paid">Paid
+                                                        </td>
+
+                                                    </tr>
+
+
+                                                    <!-- Order 2 -->
+
+                                                    <tr>
+
+                                                        <td>#ORD-1047
+                                                        </td>
+
+                                                        <td>Nusrat Jahan
+                                                        </td>
+
+                                                        <td>$126.50
+                                                        </td>
+
+                                                        <td class="status-processing">Processing
+                                                        </td>
+
+                                                    </tr>
+
+
+                                                    <!-- Order 3 -->
+
+                                                    <tr>
+
+                                                        <td>#ORD-1046
+                                                        </td>
+
+                                                        <td>Karim Hasan
+                                                        </td>
+
+                                                        <td>$84.00
+                                                        </td>
+
+                                                        <td class="status-paid">Paid
+                                                        </td>
+
+                                                    </tr>
+
+
+                                                    <!-- Order 4 -->
+
+                                                    <tr>
+
+                                                        <td>#ORD-1045
+                                                        </td>
+
+                                                        <td>Sadia Akter
+                                                        </td>
+
+                                                        <td>$312.75
+                                                        </td>
+
+                                                        <td class="status-shipped">Shipped
+                                                        </td>
+
+                                                    </tr>
+
+                                                </tbody>
+
+                                            </table>
 
                                         </div>
 
                                     </div>
 
                                 </div>
+
+
+                                <!-- ========================= -->
+                                <!-- Top Selling Products -->
+                                <!-- ========================= -->
+
+                                <div class="col-4 top-sale">
+
+                                    <div class="top-sale-card p-3">
+
+                                        <h5 class="card-title">Top Selling Products</h5>
+
+
+                                        <!-- Product 1 -->
+
+                                        <div class="product-item">
+
+                                            <span class="product-number">1</span>
+
+                                            <span class="product-name">Fresh Milk</span>
+
+                                            <span class="product-sold">842 sold </span>
+
+                                        </div>
+
+
+                                        <!-- Product 2 -->
+
+                                        <div class="product-item">
+
+                                            <span class="product-number">2 </span>
+
+                                            <span class="product-name">Basmati Rice </span>
+
+                                            <span class="product-sold">614 sold </span>
+
+                                        </div>
+
+
+                                        <!-- Product 3 -->
+
+                                        <div class="product-item">
+
+                                            <span class="product-number">3</span>
+
+                                            <span class="product-name">Cooking Oil</span>
+
+                                            <span class="product-sold">527 sold     </span>
+
+                                        </div>
+
+
+                                        <!-- Product 4 -->
+
+                                        <div class="product-item">
+
+                                            <span class="product-number">4  </span>
+
+                                            <span class="product-name">Bread </span>
+
+                                            <span class="product-sold">489 sold </span>
+
+                                        </div>
+
+
+                                        <!-- Product 5 -->
+
+                                        <div class="product-item">
+
+                                            <span class="product-number">5   </span>
+
+                                            <span class="product-name">Eggs  </span>
+
+                                            <span class="product-sold">421 sold  </span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
