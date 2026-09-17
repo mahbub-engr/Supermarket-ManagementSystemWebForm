@@ -6,11 +6,31 @@
 
 
 }
+:root {
+    --secondary: #667085;
+    --text-size:14px;
+    --radius-10:10px;
+}
+.radius-10{
+    border-radius:var(--radius-10);
+}
+.f-14{
+    font-size:var(--text-size);
+}
+.color-secondary{
+    color:var(--secondary);
+}
+.header-area{
+    margin:20px 0 20px 0;
 
+}
+.search-box {
+    border: none !important;
+    background: #fff;
+    padding: 10px;
+}
 
-
-
-.sales-card,.stock-card {
+.sales-card, .stock-card {
     background: #fff;
     border-radius: 14px;
     min-height: 300px;

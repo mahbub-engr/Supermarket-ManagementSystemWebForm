@@ -35,7 +35,7 @@
                                         <asp:MenuItem Text="Settings" Value="Settings"></asp:MenuItem>
                                     </Items>
                                 </asp:Menu>
-                                <div class="admin-area">
+                                <div class="admin-area ">
                                     <asp:Label ID="Label1" runat="server" Text="Admin"></asp:Label>
                                     <div>
                                         <asp:Label ID="Label2" runat="server" Text="Admin User"></asp:Label>
@@ -46,13 +46,13 @@
                         </div>
                     </div>
                     <div class="content col-10 ">
-                        <div class="header-area container d-flex justify-content-between">
+                        <div class="header-area container d-flex justify-content-between align-items-center">
                             <div class="title-area">
-                                <h3>Dashboard</h3>
-                                <asp:Label class="fs-6" ID="Label4" runat="server" Text="Overview of your supermarket business"></asp:Label>
+                                <h3 class="title">Dashboard</h3>
+                                <asp:Label class=" f-14 colo color-secondary" ID="Label4" runat="server" Text="Overview of your supermarket business"></asp:Label>
                             </div>
                             <div class="search-area">
-                                <asp:TextBox ID="TextBox1" runat="server" placeholder="Search anything..."></asp:TextBox>
+                                <asp:TextBox CssClass="search-box f-14 colo color-secondary radius-10" ID="SearchBox" runat="server" placeholder="Search anything..."></asp:TextBox>
                             </div>
                         </div>
                         <div class="key-performance-indicators container">
