@@ -58,31 +58,31 @@
                         <div class="key-performance-indicators container">
                             <div class="row">
                                 <div class="col-3">
-                                    <div class="card">
-                                        <asp:Label ID="Label5" runat="server" Text="Order"></asp:Label>
-                                        <asp:Label ID="Label6" runat="server" Text="145"></asp:Label>
-                                        <asp:Label ID="Label7" runat="server" Text="12.5%"></asp:Label>
+                                    <div class="card-indicator day-indicators">
+                                        <asp:Label CssClass="f-14 colo color-secondary" ID="Label5" runat="server" Text="Today's Sales"></asp:Label>
+                                        <asp:Label CssClass="title" ID="Label6" runat="server" Text="145"></asp:Label>
+                                        <asp:Label CssClass="parcet" ID="Label7" runat="server" Text="12.5%"></asp:Label>
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="card">
-                                        <asp:Label ID="Label8" runat="server" Text="Order"></asp:Label>
-                                        <asp:Label ID="Label9" runat="server" Text="145"></asp:Label>
-                                        <asp:Label ID="Label10" runat="server" Text="12.5%"></asp:Label>
+                                    <div class="card-indicator order-indicators">
+                                        <asp:Label CssClass="f-14 colo color-secondary" ID="Label8" runat="server" Text="Orders"></asp:Label>
+                                        <asp:Label CssClass="title" ID="Label9" runat="server" Text="145"></asp:Label>
+                                        <asp:Label CssClass="parcet" ID="Label10" runat="server" Text="12.5%"></asp:Label>
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="card">
-                                        <asp:Label ID="Label11" runat="server" Text="Order"></asp:Label>
-                                        <asp:Label ID="Label12" runat="server" Text="145"></asp:Label>
-                                        <asp:Label ID="Label13" runat="server" Text="12.5%"></asp:Label>
+                                    <div class="card-indicator customer-indicators">
+                                        <asp:Label CssClass="f-14 colo color-secondary" ID="Label11" runat="server" Text="Customers"></asp:Label>
+                                        <asp:Label CssClass="title" ID="Label12" runat="server" Text="145"></asp:Label>
+                                        <asp:Label CssClass="parcet" ID="Label13" runat="server" Text="12.5%"></asp:Label>
                                     </div>
                                 </div>
                                 <div class="col-3">
-                                    <div class="card">
-                                        <asp:Label ID="Label14" runat="server" Text="Order"></asp:Label>
-                                        <asp:Label ID="Label15" runat="server" Text="145"></asp:Label>
-                                        <asp:Label ID="Label16" runat="server" Text="12.5%"></asp:Label>
+                                    <div class="card-indicator low-stock-indicators">
+                                        <asp:Label CssClass="f-14 colo color-secondary" ID="Label14" runat="server" Text="Low stock"></asp:Label>
+                                        <asp:Label CssClass="title" ID="Label15" runat="server" Text="145"></asp:Label>
+                                        <asp:Label CssClass="parcet" ID="Label16" runat="server" Text="12.5%"></asp:Label>
                                     </div>
                                 </div>
                             </div>

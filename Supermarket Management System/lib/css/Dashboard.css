@@ -24,12 +24,41 @@
     margin:20px 0 20px 0;
 
 }
+.title {
+    font-size:28px;
+    font-weight:bold;
+}
+.card-indicator {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 14px;
+    padding: 15px;
+}
+.day-indicators .parcet {
+    color: #16A34A;
+}
+.order-indicators .parcet {
+    color: #2563EB;
+}
+.dcustomer-indicators .parcet {
+    color: #F59E0B;
+}
+.low-stock-indicators .parcet {
+    color: #DC2626;
+}
+.parcet {
+    font-size: 12px;
+    font-weight: 500;
+}
 .search-box {
     border: none !important;
     background: #fff;
     padding: 10px;
 }
-
+.key-performance-indicators {
+    margin-left:0 !important;
+}
 .sales-card, .stock-card {
     background: #fff;
     border-radius: 14px;
