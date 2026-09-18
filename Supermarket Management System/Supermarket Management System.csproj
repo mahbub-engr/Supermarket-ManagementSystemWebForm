@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Layout\Dashboard.aspx" />
     <Content Include="Layout\LoginForm.aspx" />
+    <Content Include="Layout\Product.aspx" />
     <Content Include="lib\css\bootstrap.css" />
     <Content Include="lib\css\Dashboard.css" />
     <Content Include="lib\css\fontawesome-all.min.css" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="Layout\LoginForm.aspx.designer.cs">
       <DependentUpon>LoginForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
