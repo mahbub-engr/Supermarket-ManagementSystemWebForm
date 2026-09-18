@@ -7,9 +7,34 @@
 
 }
 :root {
+    --primary: #172033;
     --secondary: #667085;
-    --text-size:14px;
-    --radius-10:10px;
+    --text-size: 14px;
+    --radius-10: 10px;
+    --hover-primary: #16A34A;
+    --hover-secondary: #EAF7EF;
+}
+.primary {
+    color:var(--primary) !important;
+}
+
+.logo {
+    padding: 15px;
+}
+    .logo h2 {
+        color: #16A34A !important;
+    }
+#MenuID {
+    width:100%
+}
+.menu ul {
+    width: 100% !important;
+}
+.menu-item {
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius:10px
 }
 .radius-10{
     border-radius:var(--radius-10);

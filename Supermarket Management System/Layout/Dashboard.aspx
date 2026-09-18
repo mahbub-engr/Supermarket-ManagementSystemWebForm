@@ -19,10 +19,11 @@
                     <div class="col-2 side-nav">
                         <div class="nav-content">
                             <div class="logo">
-                                <h2>Logo</h2>
+                                <h2 class="primary">Super Shop</h2>
                             </div>
                             <div class="menu-area">
-                                <asp:Menu ID="MenuID" runat="server">
+                                <asp:Menu ID="MenuID" runat="server" CssClass="menu" StaticMenuItemStyle-CssClass="menu-item primary" StaticSelectedStyle-CssClass="menu-selected" StaticHoverStyle-BackColor="#EAF7EF" StaticHoverStyle-ForeColor="#16A34A">
+                                    
                                     <Items>
                                         <asp:MenuItem Text="Dashboard" Value="Dashboard"></asp:MenuItem>
                                         <asp:MenuItem Text="Products" Value="Products"></asp:MenuItem>
@@ -35,13 +36,6 @@
                                         <asp:MenuItem Text="Settings" Value="Settings"></asp:MenuItem>
                                     </Items>
                                 </asp:Menu>
-                                <div class="admin-area ">
-                                    <asp:Label ID="Label1" runat="server" Text="Admin"></asp:Label>
-                                    <div>
-                                        <asp:Label ID="Label2" runat="server" Text="Admin User"></asp:Label>
-                                        <asp:Label ID="Label3" runat="server" Text="Store Maneger"></asp:Label>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
