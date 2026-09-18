@@ -13,5 +13,10 @@ namespace Supermarket_Management_System.Layout
         {
 
         }
+
+        protected void MenuID_MenuItemClick(object sender, MenuEventArgs e)
+        {
+
+        }
     }
 }

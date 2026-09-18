@@ -26,7 +26,7 @@
                                     
                                     <Items>
                                         <asp:MenuItem Text="Dashboard" Value="Dashboard"></asp:MenuItem>
-                                        <asp:MenuItem Text="Products" Value="Products"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Layout/Product.aspx" Text="Products" Value="Products"></asp:MenuItem>
                                         <asp:MenuItem Text="Inventory" Value="Inventory"></asp:MenuItem>
                                         <asp:MenuItem Text="Sales &amp; Orders" Value="Sales &amp; Orders"></asp:MenuItem>
                                         <asp:MenuItem Text="Customers" Value="Customers"></asp:MenuItem>
